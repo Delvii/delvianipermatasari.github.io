@@ -1,150 +1,227 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- my CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
 
-    <title>Delviani Permata Sari</title>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>My Portfolio | Delvi</title>
   </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top" style="background-color: pink">
+      <div class="container">
+        <a class="navbar-brand" href="#">Delvi</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
 
-  <body>
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="img/Delvi.png" alt="Delvi" width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Delviani Permata Sari</h1>
+      <p class="lead">Web Programer</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#d2cdff"
+          fill-opacity="1"
+          d="M0,0L40,53.3C80,107,160,213,240,229.3C320,245,400,171,480,128C560,85,640,75,720,96C800,117,880,171,960,170.7C1040,171,1120,117,1200,85.3C1280,53,1360,43,1400,37.3L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Jumbotron -->
 
-    <!-- navbar -->
-    <div class="navbar-fixed">
-      <nav class="blue darken-2">
-        <div class="container">
-          <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">DPS</a>
-            <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-              <li><a href="">About Us</a></li>
-              <li><a href="">Clients</a></li>
-              <li><a href="">Services</a></li>
-              <li><a href="">Portfolio</a></li>
-              <li><a href="">Contact Us</a></li>
-            </ul>
+    <!-- About -->
+    <section id="about" style="background-color: #d2cdff">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>About Me</h2>
           </div>
         </div>
-      </nav>
-    </div>
-
-    <!-- sidenav -->
-    <ul class="sidenav" id="mobile-nav">
-      <li><a href="">About Us</a></li>
-      <li><a href="">Clients</a></li>
-      <li><a href="">Services</a></li>
-      <li><a href="">Portfolio</a></li>
-      <li><a href="">Contact Us</a></li>
-    </ul>
-
-    <!-- slider -->
-    <div class="slider">
-      <ul class="slides">
-        <li>
-          <img src="img/slider/1.png">
-          <div class="caption left-align">
-            <h3>This is our big Tagline!</h3>
-            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-4">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit in obcaecati ullam architecto non culpa cumque porro accusantium doloremque assumenda? Blanditiis fugiat possimus reiciendis error modi odit esse facere.
+            </p>
           </div>
-        </li>
-        <li>
-          <img src="img/slider/2.png">
-          <div class="caption right-align">
-            <h3>This is our big Tagline!</h3>
-            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          <div class="col-md-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quis officia dolorum tempora fugit, nobis delectus, itaque, magni sint tenetur deserunt exercitationem iusto qui quia laborum quidem repellendus odit nihil?</p>
           </div>
-        </li>
-        <li>
-          <img src="img/slider/3.png">
-          <div class="caption center-align">
-            <h3>This is our big Tagline!</h3>
-            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-          </div>
-        </li>
-      </ul>
-    </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#f3f4f5"
+          fill-opacity="1"
+          d="M0,0L40,53.3C80,107,160,213,240,229.3C320,245,400,171,480,128C560,85,640,75,720,96C800,117,880,171,960,170.7C1040,171,1120,117,1200,85.3C1280,53,1360,43,1400,37.3L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir About -->
 
-    <!-- About Us -->
-    <section id="about" class="about">
+    <!-- Projects -->
+    <section id="projects">
       <div class="container">
-        <div class="row">
-          <h3 class="center light grey-text text-darken-3">About Us</h3>
-          <div class="col m6 light">
-            <h5>We Are Professionals</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quo accusantium repellat similique ipsa doloribus in aliquam earum eaque, possimus necessitatibus sunt repellendus ullam recusandae voluptas dolore debitis saepe facere.</p>
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>My Projects</h2>
           </div>
-          <div class="col m6 light">
-            <p>CodeIgniter 4</p>
-            <div class="progress">
-                <div class="determinate blue" style="width: 95%"></div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/mawarbiru.png" class="card-img-top" alt="Bunga-Mawar" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
             </div>
-            <p>Python</p>
-            <div class="progress">
-                <div class="determinate blue" style="width: 85%"></div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/bungadaisy.png" class="card-img-top" alt="Bunga-Mawar" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
             </div>
-            <p>Laravel</p>
-            <div class="progress">
-                <div class="determinate blue" style="width: 90%"></div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/sejajar.png" class="card-img-top" alt="Bunga-Mawar" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
             </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/mawarbiru.png" class="card-img-top" alt="Bunga-Mawar" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/bungadaisy.png" class="card-img-top" alt="Bunga-Mawar" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffcdcd"
+          fill-opacity="1"
+          d="M0,0L40,53.3C80,107,160,213,240,229.3C320,245,400,171,480,128C560,85,640,75,720,96C800,117,880,171,960,170.7C1040,171,1120,117,1200,85.3C1280,53,1360,43,1400,37.3L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Projects -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6 mb-3 pb-3">
+            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+              <strong>Terima kasih</strong> Pesan anda sudah saya terima.
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <form name="contact-form">
+              <div class="mb-3">
+                <label for="nama" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="nama" aria-describedby="nama" name="nama" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+
+              <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
+            </form>
           </div>
         </div>
       </div>
     </section>
-    
+    <!-- Akhir Contact -->
 
-    <!-- Clients -->
-    <div class="parallax-container">
-      <div class="parallax"><img src="img/slider/4.png"></div>
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center pb-2 pt-3">
+      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/delvianipermataa/" class="text-white fw-bold">Delviani Permata Sari</a></p>
+    </footer>
+    <!-- Akhir Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
-      <div class="container clients">
-        <h3 class="center light white-text">Our Clients</h3>
-        <div class="row">
-          <div class="col m4 s12 center">
-            <img src="img/clients/gojek.png">
-          </div>
-          <div class="col m4 s12 center">
-            <img src="img/clients/tokopedia.png">
-          </div>
-          <div class="col m4 s12 center">
-            <img src="img/clients/traveloka.png">
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <!--JavaScript at end of body for optimized loading-->
-    <script type="text/javascript" src="js/materialize.min.js"></script>
     <script>
-      const sideNav = document.querySelectorAll('.sidenav');
-      M.Sidenav.init(sideNav);
+      const scriptURL = "https://script.google.com/macros/s/AKfycbwT3IK3Th_vb2rcM99SlxmCpRFKvh1BuaRRsrNtIFRW5qedLVA6XSebu4xH5ynCGHlCEQ/exec";
+      const form = document.forms["contact-form"];
+      const btnKirim = document.querySelector(".btn-kirim");
+      const btnLoading = document.querySelector(".btn-loading");
+      const myAlert = document.querySelector(".my-alert");
 
-      const slider = document.querySelectorAll('.slider');
-      M.Slider.init(slider, {
-        indicators: false,
-        height: 500,
-        transition: 600,
-        interval: 3000
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        //ketika tombol submit di klik
+        //tampilkan tombol loading, hilangkan tombol kirim
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            //tampilkan tombol kirim, hilangkan tombol loading
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            //tampilkan alert
+            myAlert.classList.toggle("d-none");
+            //reset formnya
+            form.reset();
+            console.log("Success!", response);
+          })
+          .catch((error) => console.error("Error!", error.message));
       });
-
-      const parallax = document.querySelectorAll('.parallax');
-      M.Parallax.init(parallax);
-
     </script>
   </body>
 </html>
-
-
-
-
-
-
-
